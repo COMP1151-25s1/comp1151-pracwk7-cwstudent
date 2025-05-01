@@ -273,8 +273,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"moveSpeed","value":{"$content":0.25,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1405252861}
 --- !u!1 &976494588
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +494,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!4 &1405252861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9093586090197112306, guid: 5618d24e1fd75ed46a3780bd2283c874, type: 3}
+  m_PrefabInstance: {fileID: 3417103756147353509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1452064296
 GameObject:
   m_ObjectHideFlags: 0
