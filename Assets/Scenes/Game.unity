@@ -244,6 +244,37 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.455
+--- !u!114 &705000665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705000660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 94a63870488e0e14abd19f39d834f86e, type: 2}
+--- !u!114 &705000666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705000660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &976494588
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +814,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 825346521831051327, guid: 86d91fc7157eed5429f85acbbdf0c06c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 705000664}
+    - targetCorrespondingSourceObject: {fileID: 825346521831051327, guid: 86d91fc7157eed5429f85acbbdf0c06c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 705000666}
+    - targetCorrespondingSourceObject: {fileID: 825346521831051327, guid: 86d91fc7157eed5429f85acbbdf0c06c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 705000665}
   m_SourcePrefab: {fileID: 100100000, guid: 86d91fc7157eed5429f85acbbdf0c06c, type: 3}
 --- !u!1001 &8603999966323461769
 PrefabInstance:
